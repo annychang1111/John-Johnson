@@ -280,7 +280,7 @@ input[type=submit]:focus {
 	flex-direction: column;
 }
 
-@media (min-width: 1200px){
+/*@media (min-width: 1200px){
 #content{
 	padding: 3rem 10rem;
 
@@ -297,7 +297,7 @@ input[type=submit]:focus {
 	padding: 2.5rem 1rem;
 }
 
-}
+}*/
 
 
 @media (min-width: 768px){
@@ -420,7 +420,7 @@ input[type=submit]:focus {
 }
 
 #content{
-	padding: 3rem 10rem;
+	padding: 3rem 3rem;
 
 	background-image: linear-gradient(rgb(143, 86, 36), rgba(0, 0, 0, 0)), url(img/2.jpg);
 	-ms-background-image: linear-gradient(rgb(143, 86, 36), rgba(0, 0, 0, 0)), url(img/2.jpg);
