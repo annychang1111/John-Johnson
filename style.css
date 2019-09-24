@@ -420,7 +420,7 @@ input[type=submit]:focus {
 }
 
 #content{
-	padding: 3rem 3rem;
+	padding: 3rem 1rem;
 
 	background-image: linear-gradient(rgb(143, 86, 36), rgba(0, 0, 0, 0)), url(img/2.jpg);
 	-ms-background-image: linear-gradient(rgb(143, 86, 36), rgba(0, 0, 0, 0)), url(img/2.jpg);
