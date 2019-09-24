@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>John B. Johnson, MD: Batesville Medical Specialties</title>
+  <script src="https://kit.fontawesome.com/4c4a78b3f2.js"></script>
+</head>
+<body>
+	<div class="container" id="header">
+		<div class="row">
+			<div class="col-12 col-md-5" id="header-left">
+				<a href="index.html"><img src="img/logo.svg" alt=""></a>
+			</div>
+			<div class="col-12 col-md-7" id="header-right">
+				<a href="https://goo.gl/maps/sf3WhwyGtvJNgUvt5" target="_blank"><i class="fas fa-map-marker"></i> 374 Northside Drive, Suite D, Batesville, IN 47006</a><br>
+				<a href="tel:1-812-934-5924"><i class="fas fa-phone"></i> (812) 934-5924</a>
+			</div>
+		</div>
+	</div>
+
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" style="padding: 0;" href="index.html">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" style="color: #74986C; padding: 0;" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="padding: 0;" href="the_concierge_choice.html">The Concierge Choice</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" style="padding: 0;" href="contact_us.html">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+
+<div class="container" id="about">
+	<div class="row">
+		<div class="col-12 col-md-7" id="about-left">
+      <h1>About Dr. Johnson</h1>
+      <p>Dr. Johnson began serving the people of Batesville, Indiana in 1998.  Before that, he practiced in the small town of Beavercreek, Ohio after completing his residency in Internal Medicine as Chief Resident.  His goal has always been to become familiar with his patient’s unique situation and tailor treatment personally.  This level of care cannot be adequately provided in the typical 5 minute office visit.</p><br>
+      <h3 style="padding-bottom: 8px;">More about the benefits of Dr. Johnson’s Concierge Choice practice</h3>
+      <button type="button" onclick="window.location.href = 'the_concierge_choice.html';" id="btn-about"><span>FIND OUT TODAY</span></button>
+		</div>
+		<div class="col-12 col-md-5" id="about-right">
+			<img src="img/about.jpg" style="width: 100%;">
+		</div>
+	</div>
+</div>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 align-items-center">2019 © All Rights Reserved</div>
+			</div>
+		</div>
+	</footer>
+
+  <button onclick="topFunction()" id="btn-top" title="Go to top"><i class="fas fa-angle-up"></i></button>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("btn-top").style.display = "block";
+        } else {
+            document.getElementById("btn-top").style.display = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+</body>
+</html>
